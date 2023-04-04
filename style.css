@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Sans:wght@400;700 & display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #33475B;
+    width: auto;
+
+  
+}
+
+header{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: auto;
+    display: flex;
+
+}
+.container-elementos-header{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo-principal{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #0000EE;
+    font-size: 24px;
+    font-weight: 400;
+
+
+}
+.label-pesquisa{
+    background-color: #DB1E8C;
+    height: 40px;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    gap:4px;
+    align-items: center;
+   
+
+}
+.input-pesquisa{
+    background-color:  transparent;
+    border: none;
+    padding: 4px;
+}
+::placeholder {
+    color: #FF97d3;
+}
+    
+
+.container-trilhas{
+    width: 1380px;
+    height: 932.47px;
+    color: #364372;
+    margin: auto;
+  
+    
+}
+.trilhas-cursos {
+    
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+  
+
+    
+
+}
+
+.trilhas-cursos li {
+    
+    width: 400px;
+    height: 444.74px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    background-color:#F5F5F5 ;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin: 10px 10px;
+   
+
+}
+.titulo-trilhas{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+
+    color: #364372;
+    margin-left: 20px;
+  
+   
+    
+
+}
+.produto-descricao-dados {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    text-align: left;
+    padding: 10px;
+    color: #000000;
+    margin: 10px 25px 0 20px;
+
+}
+
+.ementa-dados{ 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.8px;
+    text-align: left;
+    color: #264FEC;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    text-align: center;
+    width: 138.77px;
+    margin: 50px 220px 25px 20px;
+    
+}
+.produto-descricao-devops{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    text-align: left;
+    padding: 5px;
+    color: #000000;
+    margin: 10px 20px 0 20px;
+
+}
+.ementa-devops{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.8px;
+    text-align: left;
+    color: #264FEC;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    text-align: center;
+    width: 138.77px;
+    margin: 50px 220px 25px 20px;
+
+}
+.produto-descricao-fullstack{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    text-align: left;
+    padding: 5px;
+    color: #000000;
+    margin: 10px 25px 0 20px;
+
+}
+.ementa-fullstack{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.8px;
+    text-align: left;
+    color: #264FEC;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    text-align: center;
+    width: 138.77px;
+    margin: 130px 220px 25px 20px;
+}
+.produto-descricao-ecommerce{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    text-align: left;
+    padding: 5px;
+    color: #000000;
+    margin: 10px 25px 0 20px;
+
+}
+.ementa-ecommerce{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.8px;
+    text-align: left;
+    color: #264FEC;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    text-align: center;
+    width: 138.77px;
+    margin: 30px 220px 25px 20px;
+}
+.produto-descricao-si{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    text-align: left;
+    padding: 5px;
+    color: #000000;
+    margin: 0px 10px 0 20px;
+
+}
+.ementa-si{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.8px;
+    text-align: left;
+    color: #264FEC;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    text-align: center;
+    width: 138.77px;
+    margin: 30px 220px 25px 20px;
+}
+.produto-descricao-ue{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    text-align: left;
+    padding: 5px;
+    color: #000000;
+    margin: 10px 10px 0 20px;
+
+}
+.ementa-ue{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.8px;
+    text-align: left;
+    color: #264FEC;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    text-align: center;
+    width: 138.77px;
+    margin: 110px 220px 25px 20px;
+}
+
+footer{
+    height: 110px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    
+}
+.rodape{
+    margin-right: 0;
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+ 
+    align-items: center;
+    
+    
+    
+   
+}
+.logos-rodape1{
+    margin-left: 50pxpx;
+
+    
+}
+.logos-rodape2{
+    margin-left: 10px;
+   
+}
+.logos-rodape3{
+    margin-left: 270px;
+    
+}
+.escrita-rodape{
+    width: 280px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 240px;
+
+    
+
+    
+}
+.icones-boti{
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 110px;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: 20px;
+   
+   
+}
+
+    
+
+.escrita-rodape-boti{
+    
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
